@@ -11,6 +11,10 @@ highlight CursorLine gui=NONE guifg=white guibg=black
 set number
 set clipboard=unnamed
 
+" Don’t add empty newlines at the end of files
+set binary
+set noeol
+
 " ctag settings
 set tag=tags
 let g:auto_ctags = 1
