@@ -6,7 +6,3 @@
 [user]
     name = "yoshwata"
     email = yoshwata@yahoo-corp.jp
-[credential]
-            helper = osxkeychain
-[credential "https://code.google.com/p/dotfiles/"]
-            username = yoshwata

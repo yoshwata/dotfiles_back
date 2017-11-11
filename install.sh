@@ -1,7 +1,6 @@
 #! /bin/bash -xve
 
-git clone https://yengin@bitbucket.org/yengin/dotfiles.git
-cd ~/dotfiles
+git clone git@github.com:yoshwata/dotfiles.git
 
 cd ~/dotfiles
 ./installVim.sh
