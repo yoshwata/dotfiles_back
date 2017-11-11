@@ -27,6 +27,7 @@ HISTTIMEFORMAT='%Y/%m/%d %H:%M:%S '
 
 # Path
 export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$HOME/bin:$PATH"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
