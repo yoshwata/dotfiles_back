@@ -1,6 +1,8 @@
 #! /bin/bash -xve
 
-git clone git@github.com:yoshwata/dotfiles.git
+sudo apt-get install unzip
+wget https://github.com/yoshwata/dotfiles/archive/master.zip
+unzip master.zip
 
 cd ~/dotfiles
 ./installVim.sh
