@@ -64,7 +64,7 @@ set background=dark
 filetype plugin indent on
 
 "" settings for syntastic
-execute pathogen#infect()
+" execute pathogen#infect()
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
