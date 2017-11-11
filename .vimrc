@@ -49,7 +49,7 @@ NeoBundle "ctrlpvim/ctrlp.vim"
 NeoBundle "andviro/flake8-vim"
 
 " Color settings
-" NeoBundle 'altercation/vim-colors-solarized'
+NeoBundle 'altercation/vim-colors-solarized'
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
@@ -57,7 +57,7 @@ NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
 " Required:
 call neobundle#end()
 set background=dark
-" colorscheme solarized
+colorscheme solarized
 " colorscheme apprentice
 
 " Required:
