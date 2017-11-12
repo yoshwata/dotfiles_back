@@ -71,9 +71,6 @@ alias diff='diff -U1'
 stty erase ^H
 bindkey "^[[3~" delete-char
 
-# cdの後にlsを実行
-chpwd() { ls -ltr --color=auto }
-
 # どこからでも参照できるディレクトリパス
 cdpath=(~)
 
