@@ -51,6 +51,7 @@ NeoBundle 'scrooloose/syntastic'
 NeoBundle 'Shougo/neocomplcache'
 NeoBundle "ctrlpvim/ctrlp.vim"
 NeoBundle "andviro/flake8-vim"
+NeoBundle 'cohama/agit.vim'
 
 " Color settings
 NeoBundle 'altercation/vim-colors-solarized'
