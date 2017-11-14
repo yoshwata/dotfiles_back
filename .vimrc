@@ -1,5 +1,7 @@
 " Basic settings
 set backspace=start,eol,indent
+noremap! <C-?> <C-h>
+
 syntax on
 set autoindent
 set expandtab
