@@ -54,6 +54,7 @@ NeoBundle 'Shougo/neocomplcache'
 NeoBundle "ctrlpvim/ctrlp.vim"
 NeoBundle "andviro/flake8-vim"
 NeoBundle 'cohama/agit.vim'
+NeoBundle 'ConradIrwin/vim-bracketed-paste'
 
 " Color settings
 NeoBundle 'altercation/vim-colors-solarized'
