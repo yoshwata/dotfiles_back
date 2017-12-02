@@ -1,21 +1,26 @@
 " Basic settings
 set backspace=start,eol,indent
-noremap! <C-?> <C-h>
+" noremap! <C-?> <C-h>
 
 syntax on
 set autoindent
-set expandtab
 set tabstop=4
 set shiftwidth=4
+set expandtab
 set cursorline
 highlight CursorLine cterm=NONE ctermfg=white ctermbg=black
 highlight CursorLine gui=NONE guifg=white guibg=black
 set number
 set clipboard=unnamed
 
+" Show “invisible” characters
+set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
+set list
+
 " Don’t add empty newlines at the end of files
-set binary
-set noeol
+" This setting unset expandtab
+" set binary
+" set noeol
 
 " ctag settings
 set tag=tags
