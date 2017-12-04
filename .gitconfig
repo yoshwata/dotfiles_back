@@ -6,3 +6,5 @@
 [user]
     name = "yoshwata"
     email = yoshwata@yahoo-corp.jp
+[core]
+    excludesfile = ~yoshwata/.gitignore
