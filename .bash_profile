@@ -33,7 +33,10 @@ eval "$(pyenv init -)"
 
 # rbenv
 eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/bin:$PATH"
 
+# chef
+export PATH="$HOME/.chefdk/gem/ruby/2.4.0/bin:$PATH"
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.

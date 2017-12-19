@@ -141,3 +141,14 @@ RPROMPT=$RPROMPT'${vcs_info_msg_0_}'
 
 # glob展開させない
 setopt nonomatch
+
+# ruby setting
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
+# chef setting
+export PATH="$HOME/.chefdk/gem/ruby/2.4.0/bin:$PATH"
+
+# go setting
+export PATH=$PATH:/usr/local/go/bin
+#
