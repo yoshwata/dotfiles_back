@@ -12,6 +12,7 @@ highlight CursorLine cterm=NONE ctermfg=white ctermbg=black
 highlight CursorLine gui=NONE guifg=white guibg=black
 set number
 set clipboard=unnamed
+set noswapfile
 
 " Show “invisible” characters
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
