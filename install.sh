@@ -8,3 +8,5 @@ cd ~/dotfiles
 ./installNeoBundle.sh
 cd ~/dotfiles
 ./dotfilesLink.sh
+
+echo hoge
